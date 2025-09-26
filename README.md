@@ -13,6 +13,13 @@
     Transfer Learning de VGG16 modelini kullandım. Burada işlerin Temel CNN modeline kıyasla iyi gittiği söylenebilir. Göreceli olarak düşük bir epochs ile (30) train için 0.0333 den 0.5496 ya ve val için 0.0671 den 0.5192 ye çıktığını gözlemledim. Açıkçası epochs sayısını arttırarak oranı hatrı sayılır biçimde arttırabilirdim fakat cnn modelinde gözlemlediğim matematiksel modelin ezber yapmasını istemedim.
 
   Optimizasyon:
-  
-  
+    Optimizasyon kısmında aynı mimariyi 3 farklı optimizatörle (adam, RMSprop, SGD+momentum) kısaca eğitip test doğruluklarına baktığımız zaman en yüksek oranı RMSprop ile verdiğini gözlemledim.
+</p>
+
+<h2>Sonuç ve Gelecek Çalışmalar</h2>
+<p>Çalışmamı gelecekte VGG16 ve optimizatör RMSprop ile geliştireceğim. Ayrıca datasetimi klasörden otomatik almak yerine tüm klasörleri birleştirip farklı klasörlerdeki tekrarlanan resimleri çıkartarak acc oranımı arttırmayı hedefliyorum. Genel olarak 'derin öğrenme' konusunda ilk projemi yapmak keyifli ve öğretici bir deneyimdi.    </p>
+<h2> Linkler</h2>
+<p>
+  https://www.kaggle.com/code/furkanaslantrk/car-brand-deeplearning
+  https://www.kaggle.com/datasets/ahmedelsany/car-brand-classification-dataset
 </p>
