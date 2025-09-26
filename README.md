@@ -20,6 +20,6 @@
 <p>Çalışmamı gelecekte VGG16 ve optimizatör RMSprop ile geliştireceğim. Ayrıca datasetimi klasörden otomatik almak yerine tüm klasörleri birleştirip farklı klasörlerdeki tekrarlanan resimleri çıkartarak acc oranımı arttırmayı hedefliyorum. Genel olarak 'derin öğrenme' konusunda ilk projemi yapmak keyifli ve öğretici bir deneyimdi.    </p>
 <h2> Linkler</h2>
 <p>
-  https://www.kaggle.com/code/furkanaslantrk/car-brand-deeplearning
+  https://www.kaggle.com/code/furkanaslantrk/car-brand-deeplearning (kaggleda geliştirdiğim projeyi privateda yapıp notebook umu çıkardım, publice aldığımda tekrar tüm notebooku compile etmek zorunda kaldığım için acc ve loss sayısal değerleri ufak değişiklikler göstermiş olabilir)
   https://www.kaggle.com/datasets/ahmedelsany/car-brand-classification-dataset
 </p>
